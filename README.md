@@ -1,5 +1,7 @@
 # Website
 
+[![Build](https://github.com/canyon-network/canyon-network.github.io/actions/workflows/build.yml/badge.svg)](https://github.com/canyon-network/canyon-network.github.io/actions/workflows/build.yml)
+
 This website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.
 
 ## Installation
