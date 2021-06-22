@@ -19,7 +19,7 @@ const features = [
     ),
   },
   {
-    title: "Incentive-driven Probabilistic Storage Consensus",
+    title: "Lightweight Incentive-driven Storage Consensus",
     imageUrl: "img/undraw_docusaurus_tree.svg",
     description: (
       <>
@@ -38,7 +38,7 @@ const features = [
         The first goal of canyon network is to be the middleware of new
         storage-based computation paradigm DAPP ecosystem, e.g.,{" "}
         <a href="https://ever.finance">ever.finance</a>, and then the more
-        general permanent decentralized storage needs.
+        general permanent decentralized storage needs for Web3.0.
       </>
     ),
   },

@@ -3,7 +3,7 @@ module.exports = {
     {
       type: "category",
       label: "Docusaurus Tutorial",
-      items: ["getting-started"],
+      items: ["getting-started", "survey"],
     },
   ],
 };

@@ -2,7 +2,7 @@
 module.exports = {
   title: "Canyon Network",
   tagline:
-    "Permanent storage layer for limitless scalability powered by the new storage-based computation paradigm",
+    "Permanent storage layer for Web3.0",
   url: "https://canyon-network.io",
   baseUrl: "/",
   onBrokenLinks: "throw",
@@ -66,7 +66,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Canyon Network Contributors.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Canyon Labs.`,
     },
   },
   presets: [
