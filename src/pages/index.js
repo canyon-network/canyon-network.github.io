@@ -35,8 +35,8 @@ const features = [
     imageUrl: "img/undraw_docusaurus_react.svg",
     description: (
       <>
-        The first goal of canyon network is to be the middleware of new
-        storage-based computation paradigm DAPP ecosystem, e.g.,{" "}
+        The first goal of canyon network is to provide services for the
+        storage-based DAPP ecosystem like{" "}
         <a href="https://ever.finance">ever.finance</a>, and then the more
         general permanent decentralized storage needs for Web3.0.
       </>
