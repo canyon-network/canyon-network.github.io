@@ -1,7 +1,8 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: "Canyon Network",
-  tagline: "A permanent storage layer for Web3.0",
+  tagline:
+    "A permanent storage layer for Web3.0, with high data durability and retrievability",
   url: "https://canyon-network.io",
   baseUrl: "/",
   onBrokenLinks: "throw",
@@ -50,12 +51,16 @@ module.exports = {
           title: "Community",
           items: [
             {
-              label: "Telegram",
-              href: "https://t.me/CanyonNetwork",
-            },
-            {
               label: "Twitter",
               href: "https://twitter.com/canyon_network",
+            },
+            {
+              label: "Medium",
+              href: "https://canyon-network.medium.com",
+            },
+            {
+              label: "Telegram",
+              href: "https://t.me/CanyonNetwork",
             },
           ],
         },

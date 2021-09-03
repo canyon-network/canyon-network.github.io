@@ -8,37 +8,56 @@ import styles from "./styles.module.css";
 
 const features = [
   {
+    title: "Super Light Storage Consensus",
+    imageUrl: "img/undraw_docusaurus_tree.svg",
+    description: (
+      <>
+        It's nonsense to provide the storage service in a hard way as the cost
+        for building and running such an system will eventually imposed on the
+        clients, rendering a truely low storage cost impossible in the long
+        term. Canyon adopts the incentive-driven Proof of Access consensus
+        initially deployed by Arweave, but on top of PoS instead of PoW,
+        encouraging the validators to earn more rewards by storing more data, no
+        sophisticated and hardware-demanding ZK proof, no need for particular
+        TEE hardware.
+      </>
+    ),
+  },
+  {
+    title: "High Data Durability",
+    imageUrl: "img/undraw_docusaurus_mountain.svg",
+    description: (
+      <>
+        One substantial advantage of combining PoS with PoA is able to guarantee
+        a high data durability in theory. 12 nices (99.9999999999%) durability
+        can be achieved with 200 validators and each of them stores at least 10%
+        of the entire network storage, in a permanent way.
+      </>
+    ),
+  },
+  {
+    title: "Retrieval-driven Data Redundancy",
+    imageUrl: "img/undraw_docusaurus_react.svg",
+    description: (
+      <>
+        It's unsound to require the storage miners to provide the retrieval
+        services for free because the bandwith is not definitely zero cost and
+        valuable in fact. In Canyon, client needs to pay for the data retrieval,
+        which in return adpatively incentives the data copies for these data
+        with a frequent read need as validators can earn some more retrieval fee
+        aside from the basic storage service.
+      </>
+    ),
+  },
+  {
     title: "Forkless Upgrade and On-chain Governance",
     imageUrl: "img/undraw_docusaurus_mountain.svg",
     description: (
       <>
-        Implemented by Substrate framework which is the same framework that
+        Implemented using Substrate framework which is the same framework that
         Polkadot is built on, making easier interoperability with Polkadot in
-        the future.
-      </>
-    ),
-  },
-  {
-    title: "Lightweight Incentive-driven Storage Consensus",
-    imageUrl: "img/undraw_docusaurus_tree.svg",
-    description: (
-      <>
-        Inspired by Arweave&apos;s Proof of Access, fused with PoS, more reward
-        for the validators by storing more data, no sophisticated and
-        hardware-demanding zero knowledge proof, no need for particular TEE
-        hardware.
-      </>
-    ),
-  },
-  {
-    title: "Towards the Future Storage-based Computation Paradigm",
-    imageUrl: "img/undraw_docusaurus_react.svg",
-    description: (
-      <>
-        The first goal of canyon network is to provide services for the
-        storage-based DAPP ecosystem like{" "}
-        <a href="https://ever.finance">ever.finance</a>, and then the more
-        general permanent decentralized storage needs for Web3.0.
+        the future. The forkless runtime upgrade feature ensures the chain is
+        capable of iterating fastly.
       </>
     ),
   },
@@ -47,7 +66,7 @@ const features = [
 function Feature({ imageUrl, title, description }) {
   const imgUrl = useBaseUrl(imageUrl);
   return (
-    <div className={clsx("col col--4", styles.feature)}>
+    <div className={clsx("col col--6", styles.feature)}>
       {imgUrl && (
         <div className="text--center">
           <img className={styles.featureImage} src={imgUrl} alt={title} />
