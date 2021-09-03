@@ -41,7 +41,7 @@ const features = [
     description: (
       <>
         It's unsound to require the storage miners to provide the retrieval
-        services for free because the bandwith is not definitely zero cost and
+        services for free because the bandwidth is definitely not zero cost and
         valuable in fact. In Canyon, client needs to pay for the data retrieval,
         which in return adpatively incentives the data copies for these data
         with a frequent read need as validators can earn some extra retrieval
