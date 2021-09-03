@@ -44,8 +44,8 @@ const features = [
         services for free because the bandwith is not definitely zero cost and
         valuable in fact. In Canyon, client needs to pay for the data retrieval,
         which in return adpatively incentives the data copies for these data
-        with a frequent read need as validators can earn some more retrieval fee
-        aside from the basic storage reward.
+        with a frequent read need as validators can earn some extra retrieval
+        fee aside from the basic storage reward.
       </>
     ),
   },
