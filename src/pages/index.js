@@ -86,6 +86,18 @@ export default function Home() {
       title={`Hello from ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />"
     >
+      <div className="upper-banner">
+        <a
+          href="https://medium.com/subspace-network/subspace-labs-acqui-hires-team-from-canyon-network-to-bring-decentralized-storage-to-polkadot-89ad488964d5"
+          target="_blank"
+          class="link-block"
+        >
+          <div class="upper-bar">
+            Subspace Labs Acqui-Hires Team from Canyon Network to Bring
+            Decentralized Storage to Polkadot
+          </div>
+        </a>
+      </div>
       <header className={clsx("hero hero--primary", styles.heroBanner)}>
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>

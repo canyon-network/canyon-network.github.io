@@ -23,3 +23,24 @@
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);
 }
+
+.upper-banner {
+  line-height: 40px;
+  display: block;
+}
+
+.link-block {
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  justify-content: center;
+  background-color: #d80f66;
+  text-align: center;
+  text-decoration: none;
+  color: #f3f3f3;
+  font-weight: 600;
+}
+
+.upper-bar {
+  text-decoration: none;
+}
